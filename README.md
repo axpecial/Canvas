@@ -2,21 +2,21 @@
 
 **Canvas** is an app that allows users to use gestures in order to create fun pictures using a variety of images.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] Add and Configure View Elements (+1pt)
-- [ ] User can use a pan gesture to move the position of the tray (+1pt)
-- [ ] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
-- [ ] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
-- [ ] User can pan faces on the canvas (+1pt)
+- [X] Add and Configure View Elements (+1pt)
+- [X] User can use a pan gesture to move the position of the tray (+1pt)
+- [X] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
+- [X] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
+- [X] User can pan faces on the canvas (+1pt)
 
 The following **stretch** user stories are implemented:
 
-- [ ] Tray bounces when returning to it's up or down positions (+1pt)
+- [X] Tray bounces when returning to it's up or down positions (+1pt)
 - [ ] User sees as new face scale up and back down to simulate a "picking up and dropping" appearance (+1pt)
 - [ ] User can use a pinch gesture to scale faces up or down (+1pt)
 - [ ] User can use a rotation gesture to rotate the position of faces on the canvas (+1pt)
@@ -36,20 +36,23 @@ The following **stretch** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Gestures
+2. Animation
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/oE0hQ1w.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+- Creating gesture recognizers with the selector action.
+- Understanding how to creating the spring animation.
+- Understanding where to initialize certain objects in the code.
 
 ## License
 
